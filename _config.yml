@@ -7,7 +7,10 @@ layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
 collections         :
-
+  blog:
+    output          : true
+  staff:
+    output          : true
 
 # Handling Reading
 safe                : false

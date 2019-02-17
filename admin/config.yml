@@ -18,3 +18,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Categories", name: "categories", widget: "string", required: false}
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - name: "staff"
+    label: "Staff"
+    folder: "collectons/_staff"
+    create: true
+    slug: "staff/{{slug}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Role", name: "role", widget: "select", options: ["designer", "developer", "project manager"]}
+      - {label: "Image", name: "image", widget: "image"}
