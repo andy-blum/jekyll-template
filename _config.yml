@@ -9,7 +9,7 @@ includes_dir        : _includes
 collections         :
   blog:
     output          : true
-    permalink       : /:collection/:name
+    permalink       : /blog/path/args/:name
 
 # Handling Reading
 safe                : false
