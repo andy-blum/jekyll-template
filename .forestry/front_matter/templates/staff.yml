@@ -1,0 +1,8 @@
+---
+label: Staff
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: last_name
+  label: Last Name
