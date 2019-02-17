@@ -2,18 +2,14 @@ The EasyBake Site
 ==============================
 A launching point for a simple CMS-based site.
 
-* [Quickstart](#quickstart)
 * [Background](#background)
+* [Quickstart](#quickstart)
 * [Dependencies](#dependencies)
   * [Jekyll](#jekyll)
   * [Netlify](#netlify)
   * [Netlify CMS](#netlify-cms)
-  * [UIKit](#uikit)
+  * [UIKit](#ui-kit)
 * [Components](#components)
-
-Quickstart
-==========
-TODO.
 
 Background
 ==========
@@ -23,6 +19,10 @@ While traditional CMSs like Drupal, Wordpress, and Joomla offer extremely flexib
 - Requires a server-side processing
 
 A large number of smaller clients don't need much more than a handful static pages and a small number of syndicated content types, so we developed the Midnet EasyBake template to streamline the creation of sites for our clients that don't need the superior customization or functionality that the big-name CMSs provide.
+
+Quickstart
+==========
+TODO.
 
 Dependencies
 ============

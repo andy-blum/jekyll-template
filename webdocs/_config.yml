@@ -7,9 +7,14 @@ layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
 collections         :
-  blog:
+  collection-one:
     output          : true
-    permalink       : /:collection/:name
+  collection-two:
+    output          : true
+  collection-three:
+    output          : true
+  collection-four:
+    output          : true
 
 # Handling Reading
 safe                : false
