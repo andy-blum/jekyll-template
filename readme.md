@@ -2,11 +2,9 @@ The EasyBake Site
 ==============================
 A launching point for a simple CMS-based site.
 
-Table of Contents
-=================
 * [Quickstart](#quickstart)
 * [Background](#background)
-* [Dependencies]
+* [Dependencies](#dependencies)
   * [Jekyll](#jekyll)
   * [Netlify](#netlify)
   * [Netlify CMS](#netlify-cms)
@@ -28,20 +26,20 @@ A large number of smaller clients don't need much more than a handful static pag
 
 Dependencies
 ============
-## Jekyll
+#### Jekyll
 Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories.
 
 - [Official Site](https://jekyllrb.com/)
 - [Official Documentation](https://jekyllrb.com/docs/)
 - [Github](https://github.com/jekyll/jekyll)
 
-## Netlify
+#### Netlify
 An all-in-one workflow that combines global deployment, continuous integration, and automatic HTTPS. And that’s just the beginning.
 
 - [Official Site](https://www.netlify.com/)
 - [Official Documentation](https://www.netlify.com/docs/)
 
-## Netlify CMS
+#### Netlify CMS
 A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator.
 
 
@@ -49,7 +47,7 @@ A CMS for static site generators. Give non-technical users a simple way to edit 
 - [Official Documentation](https://www.netlifycms.org/docs/intro/)
 - [Github](https://github.com/netlify/netlify-cms)
 
-## UI Kit
+#### UI Kit
 A lightweight and modular front-end framework
 for developing fast and powerful web interfaces.
 
