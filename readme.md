@@ -84,32 +84,28 @@ It's also important to note that while this project utilizes a CMS, it does not 
   - [Netlify](#netlify)
   - [User Authentication](#user-authentication)
 
-Initialization
-==============
+### Initialization
 
-Configuration
-=============
+### Configuration
 
-### Front End Configuration
+#### Front End Configuration
 
-### Back End Configuration
+#### Back End Configuration
 
-### Collections and Fields
+#### Collections and Fields
 
-Theming
-=======
+### Theming
 
-### UI Kit Components
+#### UI Kit Components
 
-### Includes
+#### Includes
 
-### Layouts
+#### Layouts
 
-### SCSS
+#### SCSS
 
-Deployment
-==========
+### Deployment
 
-### Netlify
+#### Netlify
 
-### User Authentication
+#### User Authentication
