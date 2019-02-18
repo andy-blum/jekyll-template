@@ -10,5 +10,18 @@
 </head>
 <body>
   {{content}}
+  <!-- Netilfy Identity Script -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+  <!-- /Netilfy Identity Script -->
 </body>
 </html>
