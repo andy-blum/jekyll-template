@@ -1,5 +1,5 @@
 The EasyBake Site
-==============================
+=================
 A launching point for a simple CMS-based site.
 
 * [Background](#background)
@@ -9,7 +9,7 @@ A launching point for a simple CMS-based site.
   * [Netlify](#netlify)
   * [Netlify CMS](#netlify-cms)
   * [UIKit](#ui-kit)
-* [Components](#components)
+* [Documentation](#documentation)
 
 Background
 ==========
@@ -22,12 +22,18 @@ A large number of smaller clients don't need much more than a handful static pag
 
 Quickstart
 ==========
-TODO.
+1) Fork this repository
+2) Configure CMS settings
+3) Customize SASS variables
+4) Set up site with Netlify
+5) Profit!
+
+For more in-depth step-by-step directions, see the flight manual, or reference the documentation below.
 
 Dependencies
 ============
 #### Jekyll
-Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories.
+Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders [Markdown](https://www.markdownguide.org/cheat-sheet) and [Liquid](https://shopify.github.io/liquid/) templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories.
 
 - [Official Site](https://jekyllrb.com/)
 - [Official Documentation](https://jekyllrb.com/docs/)
@@ -55,7 +61,55 @@ for developing fast and powerful web interfaces.
 - [Official Documentation](https://getuikit.com/docs/)
 - [Github](https://github.com/uikit/uikit)
 
+Documentation
+=============
 
-Components
+*It's important to note that this template is not for every project or every client.*
+
+The EasyMake site is designed to get a functioning site up and running in **less than one day** by leveraging a CSS/JS component framework to create a site with a simple, intuitive CMS, templated pages, and minimal custom functionality.
+
+It's also important to note that while this project utilizes a CMS, it does not have an upgrade path to a more extensible CMS like Drupal, Wordpress, or Joomla. If a site will *eventually* have high-end features such as e-commerce, it may be a better use of your time to build the site in another CMS.
+
+- [Initialization](#starting-a-new-project)
+- [Configuration](#configuration)
+  - [Frontend](#front-end-configuration)
+  - [Backend](#back-end-configuration)
+  - [Collections & Fields](#collections-and-fields)
+- [Theming](#theming)
+  - [UI Kit Components](#ui-kit-components)
+  - [Includes](#includes)
+  - [Layouts](#layouts)
+  - [SCSS](#scss)
+- [Deployment](#deployment)
+  - [Netlify](#netlify)
+  - [User Authentication](#user-authentication)
+
+Initialization
+==============
+
+Configuration
+=============
+
+### Front End Configuration
+
+### Back End Configuration
+
+### Collections and Fields
+
+Theming
+=======
+
+### UI Kit Components
+
+### Includes
+
+### Layouts
+
+### SCSS
+
+Deployment
 ==========
-TODO.
+
+### Netlify
+
+### User Authentication
